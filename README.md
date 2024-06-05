@@ -22,15 +22,15 @@ $$
 \text{JSD}_l(P_l \parallel Q) = \frac{1}{2} \left( \text{KLD}(P_l \parallel M) + \text{KLD}(Q \parallel M) \right)
 $$
 
-where \( $ M = \frac{1}{2} (P_l + Q) $\) is the average distribution of \( P \) at position \( l \) and \( Q \), and 
+where $M = \frac{1}{2} (P_l + Q)$  is the average distribution of $P$ at position $l$ and $Q$, and 
 \( $\text{KLD}$ \) is the Kullback–Leibler divergence defined by:
 
 $$
 \text{KLD}(P_l \parallel Q) = \sum_{i} P(i) \log \frac{P(i)}{Q(i)}
 $$
 
-Where \( l \) represents the genomic position, \( Q \) represents the fragment length distribution in flanking regions 
-and \( $P_l$ \) is the fragment length distribution at position \( l \).
+Where $l$ represents the genomic position, $Q$ represents the fragment length distribution in flanking regions 
+and $P_l$ is the fragment length distribution at position $l$.
 
 ## Installation
 
