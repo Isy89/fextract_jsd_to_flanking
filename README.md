@@ -1,10 +1,10 @@
 # Fextract JSD to flanking
 
-This is a of [LBFextract](https://github.com/Isy89/LBF) plugin which calculates for all the intervals in a BED file the Jensen-Shannon divergence 
-(JSD) between the fragment length distribution in the flanking regions of the interval and the fragment length distribution 
-at each position.
+This is a plugin for [LBFextract](https://github.com/Isy89/LBF) that calculates the Jensen-Shannon divergence (JSD) 
+for all intervals in a BED file. Specifically, it compares the fragment length distribution in the flanking regions
+of each interval to the fragment length distribution at each position within the interval.
 
-It reports the signal as a csvfile and a plot of the signal similar to the following one:
+The plugin outputs the results as a CSV file and generates a plot of the signal, similar to the example below:
 
 ![jsd_to_flanking_signal_plot.png](jsd_to_flanking_signal_plot.png)(jsd_to_flanking_ctcf_signal_plot.pdf)
 
